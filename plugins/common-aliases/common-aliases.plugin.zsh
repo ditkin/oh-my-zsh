@@ -4,7 +4,7 @@
 
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -lFh'     #size,show type,human readable
-alias la='ls -lAFh'   #long list,show almost all,show type,human readable
+alias lal='ls -lAFh'   #long list,show almost all,show type,human readable
 alias lr='ls -tRFh'   #sorted by date,recursive,show type,human readable
 alias lt='ls -ltFh'   #long list,sorted by date,show type,human readable
 alias ll='ls -l'      #long list
@@ -12,14 +12,25 @@ alias ldot='ls -ld .*'
 alias lS='ls -1FSsh'
 alias lart='ls -1Fcart'
 alias lrt='ls -1Fcrt'
+alias la='ls -alh'
+alias vimrc='vim ~/.vimrc'
+alias lns='ln -s'
+alias cdb='cd ..'
+alias cdbb='cd ../..'
+alias cdbbb='cd ../../..'
+alias cd1='ls -d */|cd (head -n 1)'
 
-alias zshrc='$EDITOR ~/.zshrc' # Quick access to the ~/.zshrc file
+alias s='source'
+alias sz='source ~/.zshrc'
+
+alias zshrc='vim ~/.zshrc' # Quick access to the ~/.zshrc file
 
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
 
 alias t='tail -f'
-
+alias hg='history | grep'
+alias h='history'
 # Command line head / tail shortcuts
 alias -g H='| head'
 alias -g T='| tail'
@@ -36,7 +47,7 @@ alias dud='du -d 1 -h'
 alias duf='du -sh *'
 alias fd='find . -type d -name'
 alias ff='find . -type f -name'
-
+alias fg='find ./ | grep'
 alias h='history'
 alias hgrep="fc -El 0 | grep"
 alias help='man'
