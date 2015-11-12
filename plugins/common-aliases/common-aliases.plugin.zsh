@@ -1,4 +1,4 @@
-# Advanced Aliases.
+ Advanced Aliases.
 # Use with caution
 #
 
@@ -18,13 +18,15 @@ alias cdbbb='cd ../../..'
 alias cdp='popd'
 alias zshrc='vim ~/.zshrc' # Quick access to the ~/.zshrc file
 alias sz='source ~/.zshrc'
+alias s='source'
 alias vimrc='vim ~/.vimrc'
 alias omz='cd ~/.oh-my-zsh'
 alias grep='grep --color'
 alias sgrep='grep -R -n -H -C 5 --exclude-dir={.git,.svn,CVS} '
-
+alias lista='list_aliases'
+alias listag='list_aliases | grep'
 alias t='tail -f'
-
+alias port='lsof -i:'
 # Command line head / tail shortcuts
 alias -g H='| head'
 alias -g T='| tail'
