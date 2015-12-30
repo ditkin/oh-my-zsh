@@ -1,7 +1,3 @@
- Advanced Aliases.
-# Use with caution
-#
-
 # ls, the common ones I use a lot shortened for rapid fire usage
 alias l='ls -lFh'     #size,show type,human readable
 alias la='ls -lah'   #long list,show almost all,show type,human readable
@@ -27,6 +23,7 @@ alias lista='list_aliases'
 alias listag='list_aliases | grep'
 alias t='tail -f'
 alias port='lsof -i:'
+alias yolo='sudo'
 # Command line head / tail shortcuts
 alias -g H='| head'
 alias -g T='| tail'

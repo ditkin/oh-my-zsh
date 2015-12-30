@@ -1,0 +1,6 @@
+alias vu='vagrant up' 
+alias vgs='vagrant global-status'
+alias vs='vagrant ssh'
+alias vp='vagrant provision'
+alias vd='vagrant destroy'
+alias vrp='vagrant reload --provision'
